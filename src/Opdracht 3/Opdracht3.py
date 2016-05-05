@@ -12,6 +12,8 @@ class Opdracht3():
         for dirname, dirnames, filenames in os.walk(path):
             # print path to all subdirectories first.
             for subdirname in dirnames:
+                if '.git' in dirnames:
+                    dirnames.remove('.git')
                 print(os.path.join(dirname, subdirname))
 
             # print path to all filenames.
