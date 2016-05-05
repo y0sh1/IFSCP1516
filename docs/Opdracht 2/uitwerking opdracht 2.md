@@ -84,7 +84,23 @@ import <module>
 ```
 
 Zoals eerder aangegeven kan er via het programma ``pip`` een installatie van bestaande
-code van andere ontwikkelaars geinstalleerd worden. Dit programma
+code van andere ontwikkelaars geinstalleerd worden. Dit programma kan vanaf internet, of een lokale server,
+beschikbaar gestelde code ophalen en installeren.
+
+Installeren van pip onder een windows systeem kan met de volgende commando's:
+
+```
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+```
+
+Vervolgens kan via het volgende commando een module geinstalleerd worden:
+
+```
+pip install <module>
+```
+
+Modules zijn o.a. te vinden op de website https://pypi.python.org/pypi .
 
 ## input en en output
 
