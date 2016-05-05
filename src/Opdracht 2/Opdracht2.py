@@ -1,3 +1,5 @@
+import sys
+
 class HelloWorld:
     greeting = ""
 
@@ -11,7 +13,7 @@ class HelloWorld:
 
     def function2(self):
         if 1 == 1:
-            print(self.greeting)
+            print(sys.version_info)
             return False
         else:
             return True
