@@ -7,3 +7,6 @@ install:
 script:
     - python "src/Opdracht 1/Opdracht1.py"
     - python "src/Opdracht 2/Opdracht2.py"
+    - python "src/Opdracht 3/Opdracht3.py"
+notifications:
+  email: false
