@@ -18,3 +18,4 @@ class HelloWorld:
 
 HelloWorld().function1()
 HelloWorld().function2()
+print("seems oke :)")
