@@ -57,3 +57,63 @@ class HelloWorld:
 HelloWorld().function1()
 HelloWorld().function2()
 ```
+
+## Python Syntax
+
+Resources:
+    - http://www.tutorialspoint.com/python/python_basic_syntax.htm
+
+De syntax van python is vrij uitgebreid. Om niet de complete
+inhoud van de tutorialspoint.com pagina te kopieren,
+adviseer ik hier te kijken. Deze geeft uitgebreide informatie.
+
+## Imports en standard modules
+
+Python geeft de programmeur de mogelijkheid bestaande code te gebruiken
+binnen een nieuw programma. Dit geeft flexibiliteit aan taken die veel
+projecten hetzelfde doen, voor bijvoorbeeld communicatie met protocollen
+of het interpreteren van standaarden binnen computer systemen.
+
+Imports kunnen voorkomen uit eigen code, of gedeelde code van andere
+programmeurs. Deze kunnen met een programma als ``pip`` geinstalleerd worden.
+
+Een import kan met de volgende code gedaan worden:
+
+```
+import <module>
+```
+
+Zoals eerder aangegeven kan er via het programma ``pip`` een installatie van bestaande
+code van andere ontwikkelaars geinstalleerd worden. Dit programma kan vanaf internet, of een lokale server,
+beschikbaar gestelde code ophalen en installeren.
+
+Installeren van pip onder een windows systeem kan met de volgende commando's:
+
+```
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+```
+
+Vervolgens kan via het volgende commando een module geinstalleerd worden:
+
+```
+pip install <module>
+```
+
+Modules zijn o.a. te vinden op de website https://pypi.python.org/pypi .
+
+## input en en output
+
+TODO
+
+## datatypes, values, arrays
+
+TODO
+
+## for/while/if statements
+
+TODO
+
+## functies
+
+TODO

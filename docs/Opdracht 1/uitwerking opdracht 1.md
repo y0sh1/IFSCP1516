@@ -27,13 +27,23 @@ Voor de installatie van dit besturingssysteem, zijn een aantal zaken nodig:
 - Machine om deze op uit te voeren
 - Installatie medium
 
+TODO
+
 #### Machine
+
+TODO
 
 #### Installatie Medium
 
+TODO
+
 ### Installatie PyCharm Community Edition 2016.1.2
 
+TODO
+
 ### Installatie GIT
+
+TODO
 
 ## Code
 
@@ -42,4 +52,5 @@ Resources:
 - http://sweetme.at/2013/10/21/how-to-detect-python-2-vs-3-in-your-python-script/
 - http://stackoverflow.com/questions/419163/what-does-if-name-main-do
 
+TODO
 
