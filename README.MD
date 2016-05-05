@@ -81,11 +81,8 @@ Laat grafisch relaties , herkomst etc. zien.
 
 Integreer alle vorige opdrachten tot 1 gebruikersvriendelijke applicatie.
 
-Maak een startmenu voor keuze functionaliteit.
-
-Zorg voor helpfunctie en/of gebruikershandleiding.
-
-Geef in de verslaglegging van welke testactiviteiten je hebt uitgevoerd. Beschrijf ook waarom je deze tests
+- Maak een startmenu voor keuze functionaliteit.
+- Zorg voor helpfunctie en/of gebruikershandleiding.
+- Geef in de verslaglegging van welke testactiviteiten je hebt uitgevoerd. Beschrijf ook waarom je deze tests
 hebt uitgevoerd.
-
-Deze laatste opdracht wordt uiteindelijk beoordeeld.
+- Deze laatste opdracht wordt uiteindelijk beoordeeld.
