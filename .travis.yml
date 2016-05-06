@@ -1,13 +1,13 @@
 language: python
 python:
-    - "2.7"
-    - "3.2"
+    - '2.7'
+    - '3.2'
 install:
     - pip install -r requirements.txt
 script:
-    - python "src/Opdracht 1/Opdracht1.py"
-    - python "src/Opdracht 2/Opdracht2.py"
-    - python "src/Opdracht 3/Opdracht3.py"
-    - python "src/Opdracht 4/Opdracht4.py -p '../'"
+    - python 'src/Opdracht 1/Opdracht1.py'
+    - python 'src/Opdracht 2/Opdracht2.py'
+    - python 'src/Opdracht 3/Opdracht3.py'
+    - python 'src/Opdracht 4/Opdracht4.py -p "../"'
 notifications:
   email: false
