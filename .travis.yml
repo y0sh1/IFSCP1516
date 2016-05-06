@@ -8,6 +8,6 @@ script:
     - python "src/Opdracht 1/Opdracht1.py"
     - python "src/Opdracht 2/Opdracht2.py"
     - python "src/Opdracht 3/Opdracht3.py"
-    - python "src/Opdracht 4/Opdracht4.py -p ../"
+    - python "src/Opdracht 4/Opdracht4.py -p '../'"
 notifications:
   email: false
