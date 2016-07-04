@@ -10,7 +10,8 @@ JPEG afbeeldingen kunnen zogehete Exif metadata bevatten. Hierin wordt veel info
 
 Bestanden die in de images map geplaatst worden, zullen automatisch gescant worden.
 Deze bestanden worden een voor een door het programma ingelezen en relevante informatie wordt hiervan weergegeven.
-Exif gegevens worden daarbij ook geextraheert.
+Exif gegevens worden daarbij ook geextraheert. De GPS gegevens worden in ``places.json`` gezet, welke ``report.html``
+kan geven voor de gebruiker
 
 
 ##Resources:
