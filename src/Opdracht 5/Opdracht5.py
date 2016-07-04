@@ -105,4 +105,5 @@ class opdracht5():
 
         return d + (m / 60.0) + (s / 3600.0)
 
-opdracht5()
+if __name__ == "__main__":
+    opdracht5()

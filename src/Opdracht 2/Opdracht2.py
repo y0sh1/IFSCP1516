@@ -18,6 +18,7 @@ class HelloWorld:
         else:
             return True
 
-HelloWorld().function1()
-HelloWorld().function2()
-print("seems oke :)")
+if __name__ == "__main__":
+    HelloWorld().function1()
+    HelloWorld().function2()
+    print("seems oke :)")

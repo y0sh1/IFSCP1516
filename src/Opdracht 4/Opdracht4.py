@@ -46,4 +46,5 @@ class Opdracht4:
                 os.makedirs(fileToWriteTo)
             shutil.copy2(key, os.path.join(fileToWriteTo, sourceFileName))
 
-Opdracht4()
+if __name__ == "__main__":
+    Opdracht4()
