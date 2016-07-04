@@ -1,10 +1,8 @@
 import argparse
-import json
 import mimetypes
 import os
 import exifread
 import geojson
-import image
 import time
 
 parser = argparse.ArgumentParser(description='Dit is Opdqdracht 5, IFSCP 1516')
