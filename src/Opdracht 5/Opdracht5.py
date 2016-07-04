@@ -13,7 +13,7 @@ parser.parse_args()
 args = parser.parse_args()
 
 class opdracht5():
-    path = "/home/ifscp/PycharmProjects/IFSCP1516/src/Opdracht 5/images"
+    path = "./src/Opdracht 5/images"
 
     # Init Class
     def __init__(self):
