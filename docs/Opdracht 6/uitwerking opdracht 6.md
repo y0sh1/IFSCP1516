@@ -10,3 +10,4 @@ en de toepassing hiervan goed te realiseren is met python.
 
 ##Resources:
 
+- https://pypi.python.org/pypi/pycrypto
