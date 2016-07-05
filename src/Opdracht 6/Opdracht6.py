@@ -1,6 +1,8 @@
 from Crypto.Cipher import AES
 import binascii
 
+from pip._vendor.distlib.compat import raw_input
+
 Opdracht = 6
 key = 'mysecretpassword'
 plaintext = 'Secret Message A'
