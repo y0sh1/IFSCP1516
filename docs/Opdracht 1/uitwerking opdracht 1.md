@@ -22,28 +22,22 @@ Deze download heb ik geinstalleerd, met alle standaard opties.
 
 ### Installatie Ubuntu 16.04
 
-Voor de installatie van dit besturingssysteem, zijn een aantal zaken nodig:
-
-- Machine om deze op uit te voeren
-- Installatie medium
-
-TODO
+De installatie van Ubuntu 16.04 desktop is gedaan middels de DVD image, op een virtuele machine. Deze installatie wijst
+zicht, in de virtuele machine, zich vanzelf.
 
 #### Machine
-
-TODO
-
-#### Installatie Medium
-
-TODO
+Na de installatie van ubuntu is het nodig om deze te updaten. Dit kan middels de Software Updater.
+Meer informatie hierover is hier te vonden:
+http://www.ubuntu.com/download/desktop/upgrade
 
 ### Installatie PyCharm Community Edition 2016.1.2
-
-TODO
+Voor het ontwikkelen in python is PyCharm Community Edition gebruikt.
+ Instructies hierover zijn hier (https://www.jetbrains.com/pycharm/download/#section=linux) te vinden
+ onder de knop ``Installation Instructions``.
 
 ### Installatie GIT
-
-TODO
+Git wordt gebruikt voor de uitrol van de applicatie en het versie beheer. Deze kan in
+de virtuele machine, middels het commando ``sudo apt-get install git`` geinstalleerd worden.
 
 ## Code
 

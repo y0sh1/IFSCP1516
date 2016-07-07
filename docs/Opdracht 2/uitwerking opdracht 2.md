@@ -104,16 +104,50 @@ Modules zijn o.a. te vinden op de website https://pypi.python.org/pypi .
 
 ## input en en output
 
-TODO
+Python heeft veel manieren om in- en output te doen. Dit kan middels de console,
+ met bestanden die ingeladen worden en input via parameters.
 
 ## datatypes, values, arrays
 
-TODO
+Python heeft niet echt stricte datatypes, zoals talen als C, maar het heeft wel datatypes.
+Deze kunnen vrij, als objecten, aangemaakt worden. Deze dienen ook als zo zijde
+behandeld te woden.
 
 ## for/while/if statements
 
-TODO
+### While
+De eerste lus controle structuur is het while statement. Normaal gezien begint de interpreter bij het eerste statement en neemt dan het volgende. Controlestructuren veranderen de volgorde waarin statements uitgevoerd worden of beslissen of het al dan niet uitgevoerd moet worden. Het volgende programma maakt gebruikt van het while statement:
+```
+a = 0
+while a < 10 :
+    a += 1
+    print a
+print "Loop finished"
+```
 
+### For
+Een volgende manier om een lus te implementeren is met hulp van het for statement. Een voorbeeld analoog aan de while lus kan er alsvolgt uitzien:
+```
+onetoten = range(1,11)
+for a in onetoten:
+    print a
+print "Loop finished"
+```
+
+De uitvoer is volkomen identiek aan het while-voorbeeld: de getallen van 1 tem 10, gevolgd door de string Loop finished. De code ziet er echter verschillend uit. De eerste regel maakt gebruik van de range(start,einde) functie. Dit genereert een array getallen:
+
+```
+>>> range (1,11)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
 ## functies
 
-TODO
+Functies worden gemaakt met het def-statement, met of zonder argumenten.
+
+```
+def kwadrateren(getal):
+    return getal*getal
+
+print(kwadrateren(6))
+>> 36
+```

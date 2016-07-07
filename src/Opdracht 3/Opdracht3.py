@@ -20,5 +20,5 @@ class Opdracht3():
             for filename in filenames:
                 print(os.path.join(dirname, filename))
 
-
-Opdracht3("../")
+if __name__ == "__main__":
+    Opdracht3("../")

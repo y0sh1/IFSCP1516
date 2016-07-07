@@ -18,5 +18,5 @@ class opdracht1():
         else:
             return False
 
-
-opdracht1()
+if __name__ == "__main__":
+    opdracht1()

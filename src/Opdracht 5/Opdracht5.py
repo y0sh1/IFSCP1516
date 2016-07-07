@@ -58,12 +58,12 @@ class opdracht5():
         file.write(str(contents))
         file.close()
 
-
     # From https://gist.github.com/snakeye/fdc372dbf11370fe29eb
     # Used to extract exif info
     def get_exif_location(self, exif_data):
         """
-        Returns the latitude and longitude, if available, from the provided exif_data (obtained through get_exif_data above)
+        Returns the latitude and longitude, if available, from the provided exif_data (obtained through
+        get_exif_data above)
         """
         lat = None
         lon = None
@@ -105,4 +105,5 @@ class opdracht5():
 
         return d + (m / 60.0) + (s / 3600.0)
 
-opdracht5()
+if __name__ == "__main__":
+    opdracht5()
