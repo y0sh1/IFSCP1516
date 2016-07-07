@@ -36,7 +36,8 @@ Voor het ontwikkelen in python is PyCharm Community Edition gebruikt.
  onder de knop ``Installation Instructions``.
 
 ### Installatie GIT
-Git wordt gebruikt voor
+Git wordt gebruikt voor de uitrol van de applicatie en het versie beheer. Deze kan in
+de virtuele machine, middels het commando ``sudo apt-get install git`` geinstalleerd worden.
 
 ## Code
 

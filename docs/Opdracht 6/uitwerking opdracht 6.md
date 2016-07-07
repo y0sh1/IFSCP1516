@@ -1,4 +1,4 @@
-# Opdracht 5
+# Opdracht 7
 
 ## Keuze van coderen
 Voor deze opdracht heb ik gekozen voor symetrische codering, omdat deze relatief veilig is
@@ -10,7 +10,5 @@ Deze verplichting wordt ook in de applicatie afgedwongen en niet automatisch met
 
 Als de gebruiker een te korte sleutel opgeeft, zal de versleuteling niet plaatsvinden.
 
-
 ##Resources:
 
-- https://pypi.python.org/pypi/pycrypto
