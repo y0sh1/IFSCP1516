@@ -1,11 +1,20 @@
+import argparse
 import os
+
+parser = argparse.ArgumentParser(description='Dit is Opdracht 3, IFSCP 1516')
+parser.add_argument('-p', action="store", help="Path to the to scan directory", required=True)
+parser.parse_args()
+
+
 
 
 class Opdracht3():
     path = ""
 
-    def __init__(self, path):
-        self.path = path
+    def __init__(self):
+        args = parser.parse_args()
+        if args.p:
+            self.path = args.p
         self.getcontents(self.path)
 
     def getcontents(self, path):
@@ -21,4 +30,4 @@ class Opdracht3():
                 print(os.path.join(dirname, filename))
 
 if __name__ == "__main__":
-    Opdracht3("../")
+    Opdracht3()
