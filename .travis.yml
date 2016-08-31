@@ -10,7 +10,5 @@ script:
     - python 'src/Opdracht 3/Opdracht3.py'
     - python 'src/Opdracht 4/Opdracht4.py'
     - python 'src/Opdracht 5/Opdracht5.py'
-    - python 'src/Opdracht 6/Opdracht6.py'
-    - python 'src/Opdracht 7/Opdracht7.py'
 notifications:
   email: false

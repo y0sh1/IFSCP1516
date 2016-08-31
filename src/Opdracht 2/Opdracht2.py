@@ -6,19 +6,41 @@ class HelloWorld:
     def __init__(self):
         self.greeting = "hello world"
 
-    def function1(self):
+    def ifStatement1(self):
         if self.greeting == "hello world":
             print(self.greeting)
         return True
 
-    def function2(self):
+    def ifStatement2(self):
         if 1 == 1:
             print(sys.version_info)
             return False
         else:
             return True
 
+    def forLooping1(self):
+        try:
+            wordslist = ['koekje', 'fiets', 'aardappel']
+            for item in wordslist:
+                print(item)
+                return True
+        except Exception as e:
+            print("Foutje! :(\n" + e)
+
+    def inAndOutput(self):
+        try:
+            filewrite = open("inandoutput.txt", "w")
+            filewrite.write("Write some text")
+            filewrite.close()
+            fileread = open("inandoutput.txt", "r")
+            print(fileread.readlines())
+            fileread.close()
+        except Exception as e:
+            print("Foutje! :(\n" + e)
+
 if __name__ == "__main__":
-    HelloWorld().function1()
-    HelloWorld().function2()
+    HelloWorld().ifStatement1()
+    HelloWorld().ifStatement2()
+    HelloWorld().forLooping1()
+    HelloWorld().inAndOutput()
     print("seems oke :)")
