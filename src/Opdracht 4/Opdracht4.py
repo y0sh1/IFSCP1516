@@ -63,28 +63,28 @@ class Opdracht4:
                     os.makedirs(destdirPDF)
                 for pdf in sortedFilesPDF:
                     copy2(pdf, destdirPDF)
-                    print("Moved " + pdf)
+                    print("Copied " + pdf)
             if len(sortedFilesZIP) != 0:
                 destdirZIP = os.path.join(self.dest, "ZIP")
                 if not os.path.isdir(destdirZIP):
                     os.makedirs(destdirZIP)
                 for zip in sortedFilesZIP:
                     copy2(zip, destdirZIP)
-                    print("Moved " + zip)
+                    print("Copied " + zip)
             if len(sortedFilesWord) != 0:
                 destdirWORD = os.path.join(self.dest, "WORD")
                 if not os.path.isdir(destdirWORD):
                     os.makedirs(destdirWORD)
                 for word in sortedFilesWord:
                     copy2(word, destdirWORD)
-                    print("Moved " + word)
+                    print("Copied " + word)
             if len(sortedFilesExcel) != 0:
                 destdirEXCEL = os.path.join(self.dest, "EXCEL")
                 if not os.path.isdir(destdirEXCEL):
                     os.makedirs(destdirEXCEL)
                 for excel in sortedFilesExcel:
                     copy2(excel, destdirEXCEL)
-                    print("Moved " + excel)
+                    print("Copied " + excel)
 
         except Exception:
             print("Oops! :(\n" + traceback.format_exc())
