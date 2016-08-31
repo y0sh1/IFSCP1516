@@ -54,7 +54,7 @@ class opdracht5():
 
     # Write stuff to a file
     def WriteFile(self, contents):
-        file = open("places.json", 'w+')
+        file = open('src/Opdracht 5/places.json', 'w')
         file.write(str(contents))
         file.close()
 

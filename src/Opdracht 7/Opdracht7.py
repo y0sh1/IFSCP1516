@@ -34,5 +34,5 @@ def welcome():
             list.write(u.screen_name +' \n')
     list.close()
 
-
-welcome()
+if __name__ == "__main__":
+    welcome()

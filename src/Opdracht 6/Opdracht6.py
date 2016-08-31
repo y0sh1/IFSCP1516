@@ -37,4 +37,5 @@ def decrypt(ciphertext, key):
     # Resulting plaintext
     return plaintext
 
-welcome()
+if __name__ == "__main__":
+    welcome()
