@@ -7,7 +7,7 @@ install:
 script:
     - python 'src/Opdracht 1/Opdracht1.py'
     - python 'src/Opdracht 2/Opdracht2.py'
-    - python 'src/Opdracht 3/Opdracht3.py' -p "src/"
+    - python 'src/Opdracht 3/Opdracht3.py' -p "./"
     - python 'src/Opdracht 4/Opdracht4.py'
     - python 'src/Opdracht 5/Opdracht5.py'
 notifications:
