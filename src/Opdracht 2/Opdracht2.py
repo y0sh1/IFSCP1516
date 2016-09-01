@@ -24,7 +24,7 @@ class HelloWorld:
             for item in wordslist:
                 print(item)
                 return True
-        except Exception as e:
+        except Exception:
             print("Foutje! :(\n" + e)
 
     def inAndOutput(self):

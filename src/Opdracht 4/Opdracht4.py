@@ -1,7 +1,6 @@
 import os
 import argparse
 import magic
-import logging
 from shutil import copy2
 import traceback
 
