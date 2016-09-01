@@ -21,7 +21,7 @@ class opdracht6():
     # using: https://gist.github.com/dreikanter/2780734
 
     def __init__(self):
-        args = parser.parse_args()
+        self.args = parser.parse_args()
         source_file_name = "1-source.txt"
         encoded_file_name = "2-encoded.txt"
         decoded_file_name = "3-decoded.txt"
