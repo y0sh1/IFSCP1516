@@ -6,15 +6,18 @@ import geojson
 import time
 
 parser = argparse.ArgumentParser(description='Dit is Opdqdracht 5, IFSCP 1516')
+parser.add_argument('-p', action="store", help="Path to the to scan directory", required=True)
 parser.parse_args()
 
 args = parser.parse_args()
 
 class opdracht5():
-    path = "./src/Opdracht 5/images"
+    path = "./src/Opdracht 5"
 
     # Init Class
     def __init__(self):
+        args = parser.parse_args()
+        self.path = args.p
         files = self.getJpegsFromDir(self.path)
         # self.printJpegInfo(files)
         gpsdict = self.generateGPSJSON(files)
