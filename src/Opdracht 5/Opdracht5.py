@@ -5,7 +5,7 @@ import exifread
 import geojson
 import time
 
-parser = argparse.ArgumentParser(description='Dit is Opdqdracht 5, IFSCP 1516')
+parser = argparse.ArgumentParser(description='Dit is Opdracht 5, IFSCP 1516')
 parser.add_argument('-p', action="store", help="Path to the to scan directory", required=True)
 parser.parse_args()
 

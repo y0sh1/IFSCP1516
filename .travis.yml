@@ -11,5 +11,6 @@ script:
     - python 'src/Opdracht 4/Opdracht4.py' -p "./" -d "./src/Opdracht 4/output"
     - python 'src/Opdracht 5/Opdracht5.py' -p "./docs/samples/images"
     - python 'src/Opdracht 6/Opdracht6.py'
+    - python 'src/Opdracht 7/Opdracht7.py' -u y0sh1337
 notifications:
   email: false
