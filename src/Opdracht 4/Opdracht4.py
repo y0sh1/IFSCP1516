@@ -5,7 +5,6 @@ from shutil import copy2
 import traceback
 
 parser = argparse.ArgumentParser(description='Dit is Opdracht 4, IFSCP 1516')
-parser.add_argument('-v', action="store_true", dest="verbose", help="Turn on verbosity")
 parser.add_argument('-p', action="store", help="Path to the to scan directory", required=True)
 parser.add_argument('-d', action="store", help="Set path to copy to", required=True)
 parser.parse_args()
