@@ -31,7 +31,10 @@ class opdracht7():
         api.VerifyCredentials()
         friends = api.GetFollowers(screen_name=self.user)
         for friend in friends:
-            print(friend.name + " - " + friend.screen_name)
+            try:
+                print(friend.name + " - " + friend.screen_name)
+            except:
+                continue
 
 
 if __name__ == "__main__":
