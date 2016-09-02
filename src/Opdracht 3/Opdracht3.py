@@ -1,18 +1,15 @@
 import argparse
 import os
 
-parser = argparse.ArgumentParser(description='Dit is Opdracht 3, IFSCP 1516')
-parser.add_argument('-p', action="store", help="Path to the to scan directory", required=True)
-parser.parse_args()
-
-
-
 
 class Opdracht3():
+    parser = argparse.ArgumentParser(description='Dit is Opdracht 3, IFSCP 1516')
+    parser.add_argument('-p', action="store", help="Path to the to scan directory", required=True)
+    parser.parse_args()
     path = ""
 
     def __init__(self):
-        args = parser.parse_args()
+        args = self.parser.parse_args()
         if args.p:
             self.path = args.p
         self.getcontents(self.path)
