@@ -11,7 +11,14 @@ Schrijf daarnaast kleine programma' s die van de volgende bestanden metadata uit
 - office (.doc, .xls, etc)
 
 ## Gebruik opdracht
-Deze opdracht is middels python uit te voeren.
+Deze opdracht is middels python uit te voeren. Deze vereist de parameters ``-p <pad om te scannen>`` en ``-d <doel pad
+om naar te kopieren>``.
+
+Bij de kopieer actie, zal per type een submap in het doelpad aangemaakt worden, als het type
+is aangestroffen in het te scannen pad.
+
+Middels ``-h`` of ``--help`` kan de gebruiker eventueel zien welke parameters mogelijk en/of verplicht
+zijn.
 
 ## Achtergrond informatie
 

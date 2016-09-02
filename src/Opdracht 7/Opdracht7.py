@@ -3,10 +3,6 @@ import twitter
 
 parser = argparse.ArgumentParser(description='Dit is Opdracht 7, IFSCP 1516')
 parser.add_argument('-u', action="store", help="Username of twitter user", required=True)
-parser.add_argument('-consk', action="store", help="consumer key for twitter")
-parser.add_argument('-conss', action="store", help="consumer secret for twitter")
-parser.add_argument('-accesst', action="store", help="access token for twitter")
-parser.add_argument('-accesss', action="store", help="access secret for twitter")
 
 class opdracht7():
     args = parser.parse_args()
