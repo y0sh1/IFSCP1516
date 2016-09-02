@@ -33,7 +33,7 @@ class opdracht7():
         for friend in friends:
             try:
                 print(friend.name + " - " + friend.screen_name)
-            except:
+            except SyntaxError:
                 continue
 
 

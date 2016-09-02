@@ -1,4 +1,4 @@
-pip == 8.1.1
+pip == 8.1.2
 pycrypto == 2.6.1
 Pillow == 3.3.1
 exifread == 2.1.2
