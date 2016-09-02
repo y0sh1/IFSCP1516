@@ -1,4 +1,7 @@
-# Opdracht 5
+# Opdracht 7
+Zoek uit welke api' s er beschikbaar zijn voor social media als twitter , facebook en instagram.
+Schrijf een programma dat deze api's gebruikt en daarmee de relaties van een persoon laat zien.
+Laat grafisch relaties , herkomst etc. zien
 
 ## Twitter
 Twitter bied een publieke API, welke gebruikt kan worden voor het ophalen van informatie

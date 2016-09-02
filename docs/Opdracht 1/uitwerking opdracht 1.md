@@ -4,6 +4,11 @@ Voor deze opdracht wordt een basis installatie gevraagt, in combinatie met een i
 
 Tevens is er de vraag om eigen onderwijs materiaal te verzorgen, welke uitleg geeft over de programmeertaal python.
 
+## Gebruik opdracht
+Deze opdracht is middels python uit te voeren.
+
+Afhankelijk van de python versie (2 of 3) wordt de versie weergegeven, van de betreffende uitvoerende python versie.
+
 ## Omgeving
 
 Voor mijn omgeving heb ik uit de volgende onderdelen opgebouwd via een virtuele machine in VirtualBox 5.0.20.
@@ -40,11 +45,11 @@ Git wordt gebruikt voor de uitrol van de applicatie en het versie beheer. Deze k
 de virtuele machine, middels het commando ``sudo apt-get install git`` geinstalleerd worden.
 
 ## Code
+Code wordt bewaard op github, in een repository. Dit is een soort opslag plaats voor
+broncode. Middels het eerder geinstalleerde git kan dit gedownload worden.
 
 Resources:
 - https://docs.python.org/3/whatsnew/3.0.html
 - http://sweetme.at/2013/10/21/how-to-detect-python-2-vs-3-in-your-python-script/
 - http://stackoverflow.com/questions/419163/what-does-if-name-main-do
-
-TODO
 

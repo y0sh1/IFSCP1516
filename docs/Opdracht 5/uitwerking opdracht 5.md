@@ -1,4 +1,7 @@
 # Opdracht 5
+Schrijf een programma die de gps informatie uitleest uit verschillende plaatjes en deze plot in Google
+maps. Geef daarnaast in een tijdlijn weer de verschillende creatiedatums en wijzigingsdatums van de
+(plaatjes) bestanden. Geef de diverse exif informatie zoals grootte, resolutie, etc. op grafische wijze weer
 
 ## GPS EXIF
 JPEG afbeeldingen kunnen zogehete Exif metadata bevatten. Hierin wordt veel informatie opgeslagen over de afbeelding, oa:

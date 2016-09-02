@@ -1,4 +1,9 @@
-# Opdracht 7
+# Opdracht 6
+
+Ga op zoek naar verschillende libraries voor het encrypten/decrypten van bestanden. Schrijf een
+programma waarin je deze libraries toepast. Doe ditzelfde voor steganografie.
+Bestudeer de volgende site met tools gebouwd in Python:
+https://www.volatilesystems.com/default/volatility
 
 ## Keuze van coderen
 Voor deze opdracht heb ik gekozen voor symetrische codering, omdat deze relatief veilig is

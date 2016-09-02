@@ -10,7 +10,15 @@ In deze opdracht worden een aantal zaken gevraagt:
 - for/while/if statements
 - functies
 
-## Inspringen
+## Gebruik opdracht
+Deze opdracht is middels python uit te voeren.
+
+De applicatie zal een aantal funtionaliteiten van python uitlichten,
+welke standaard meegelevert worden. Deze zullen direct bij het aanroepen
+van het script uitgevoerd worden.
+## Achtergrond informatie
+
+### Inspringen
 
 Resources:
 - http://www.diveintopython.net/getting_to_know_python/indenting_code.html
@@ -58,7 +66,7 @@ HelloWorld().function1()
 HelloWorld().function2()
 ```
 
-## Python Syntax
+### Python Syntax
 
 Resources:
     - http://www.tutorialspoint.com/python/python_basic_syntax.htm
@@ -67,7 +75,7 @@ De syntax van python is vrij uitgebreid. Om niet de complete
 inhoud van de tutorialspoint.com pagina te kopieren,
 adviseer ik hier te kijken. Deze geeft uitgebreide informatie.
 
-## Imports en standard modules
+### Imports en standard modules
 
 Python geeft de programmeur de mogelijkheid bestaande code te gebruiken
 binnen een nieuw programma. Dit geeft flexibiliteit aan taken die veel
@@ -102,20 +110,20 @@ pip install <module>
 
 Modules zijn o.a. te vinden op de website https://pypi.python.org/pypi .
 
-## input en en output
+### input en en output
 
 Python heeft veel manieren om in- en output te doen. Dit kan middels de console,
  met bestanden die ingeladen worden en input via parameters.
 
-## datatypes, values, arrays
+### datatypes, values, arrays
 
 Python heeft niet echt stricte datatypes, zoals talen als C, maar het heeft wel datatypes.
 Deze kunnen vrij, als objecten, aangemaakt worden. Deze dienen ook als zo zijde
 behandeld te woden.
 
-## for/while/if statements
+### for/while/if statements
 
-### While
+#### While
 De eerste lus controle structuur is het while statement. Normaal gezien begint de interpreter bij het eerste statement en neemt dan het volgende. Controlestructuren veranderen de volgorde waarin statements uitgevoerd worden of beslissen of het al dan niet uitgevoerd moet worden. Het volgende programma maakt gebruikt van het while statement:
 ```
 a = 0
@@ -125,7 +133,7 @@ while a < 10 :
 print "Loop finished"
 ```
 
-### For
+#### For
 Een volgende manier om een lus te implementeren is met hulp van het for statement. Een voorbeeld analoog aan de while lus kan er alsvolgt uitzien:
 ```
 onetoten = range(1,11)
@@ -140,7 +148,7 @@ De uitvoer is volkomen identiek aan het while-voorbeeld: de getallen van 1 tem 1
 >>> range (1,11)
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
-## functies
+### functies
 
 Functies worden gemaakt met het def-statement, met of zonder argumenten.
 
